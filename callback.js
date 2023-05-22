@@ -53,3 +53,7 @@ export default App;
 // receives an action type that it cares about, the store updates accordingly. Once a change
 // to the store is made, an event is broadcast to let the views know to update using the new
 // state
+
+// Reducers are functions responsible for updating your state in response to actions.
+// They’re simple functions that take your current state and an action as arguments, and
+// return the next state
