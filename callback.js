@@ -57,3 +57,13 @@ export default App;
 // Reducers are functions responsible for updating your state in response to actions.
 // They’re simple functions that take your current state and an action as arguments, and
 // return the next state
+
+// In Redux, application state is stored in a single object. The store has a few main roles,
+// which follow:
+// Hold application state.
+// Provide a way to access state.
+// Provide a way to specify updates to state. The store requires an action be dispatched
+// to modify state.
+// Allow other entities to subscribe to updates (React components in this case). View
+// bindings provided by react­redux will allow you to receive updates from the store
+// and respond to them in your components.
