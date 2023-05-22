@@ -67,3 +67,24 @@ export default App;
 // Allow other entities to subscribe to updates (React components in this case). View
 // bindings provided by react­redux will allow you to receive updates from the store
 // and respond to them in your components.
+
+// 1.4. WHY SHOULD I USE REDUX?
+// By this point, you’ve been exposed to many of the Redux talking points. If you have to
+// pitch your boss on Redux by the time you finish the first chapter, let’s consolidate those
+// ideas into a highlight reel. In short, Redux is a small, easy­to­learn state management
+// library that results in a highly predictable, testable, and debuggable application.
+// 1.4.1. Predictability
+// The biggest selling point for Redux is the sanity it provides to applications juggling
+// complex state. The Redux architecture offers a straightforward way to conceptualize
+// and manage state, one action at a time. Regardless of application size, actions within
+// the unidirectional data flow result in predictable changes to a single store.
+// 1.4.2. Developer experience
+// Predictability enables world­class debugging tools. Hot­loading and time­travel
+// debugging provide developers with wildly faster development cycles, whether building
+// new features or hunting down bugs. Your boss will like that you’re a happier developer,
+// but she’ll love that you’re a faster one.
+// 1.4.3. Testability
+// The Redux implementation code you’ll write is primarily functions, many of them pure.
+// Each piece of the puzzle can be broken out and unit­tested in isolation with ease.
+// Official documentation uses Jest and Enzyme, but whichever JavaScript testing
+// libraries your organization prefers will do the trick
